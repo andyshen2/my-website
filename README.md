@@ -4,5 +4,5 @@
 
 [www.andyshen.co.nz](wwww.andyshen.co.nz)
 
-Created using the React framwork and hosted on Amazon S3 bucket.
+Created using the React framework and hosted on Amazon S3 bucket.
 
