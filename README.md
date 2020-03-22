@@ -1,6 +1,6 @@
 
 
-## My portfolio website
+## My Portfolio Website
 
 www.andyshen.co.nz
 
