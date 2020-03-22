@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
 import Projects from './projects';
-import SummerOfTech from './summeroftech'
-import SpeciesApp from './speciesapp'
+import SummerOfTech from './Components/summeroftech'
+import SpeciesApp from './Components/speciesapp'
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 const routing = (
@@ -13,9 +13,8 @@ const routing = (
 
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/summeroftech" component={SummerOfTech} />
-        <Route path="/speciesapp" component={SpeciesApp}/>
+        <Route exact path="/app" component={SpeciesApp}/>
+        <Route exact path="/fergus" component={SummerOfTech}/>
       </Switch>
 
   </Router>

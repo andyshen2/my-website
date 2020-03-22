@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+	display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  right: 50px;
+}
+.parent {
+    width: 70%;
+    height: 600px;
+    background-image: url('images/me.jpg');
+    background-size: contain;
+    background-repeat: no-repeat
+}
+.child {
+  font-size: 3.5em;
+  position: relative;
+  left: 86px;
+  top: 157px;
+}
+.subtitle{
+  position: relative;
+  font-size: x-small;
+}
+.toplevel{
+  width: 1000px;
+  
+  margin: auto;
+}
+html {
+  scroll-behavior: smooth;
+}

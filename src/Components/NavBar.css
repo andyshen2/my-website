@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0px;
+    /* position: relative; */
+    /* width: 900px; */
+    /* height: 600px; */
+    /* right: 163px; */
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}  
+a, u {
+    text-decoration: none;
+}

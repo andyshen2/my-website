@@ -1,0 +1,29 @@
+.blog{
+    /* height: 100vh; */
+    /* height: 1000px; */
+    /* width: 1000px;
+    display: flex;
+    justify-content: center;
+    position: relative; */
+    padding-bottom: 240px;
+}
+.blogcard{
+    position: relative;
+    top: 25%;
+   
+}
+hr{
+    width: 5%;
+    float: left;
+}
+
+.duck{
+    padding-left: 50px;
+    width: 60%;
+    float: right;
+}
+.fergus{
+    width: 39%;
+    float: left;
+    padding: 0px 50px 0px 100px;
+}

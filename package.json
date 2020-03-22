@@ -11,13 +11,15 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.1"
+    "react-scripts": "3.3.1",
+    "react-sticky": "^6.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://my-website-serverless-bucket --acl public-read"
   },
   "eslintConfig": {
     "extends": "react-app"
