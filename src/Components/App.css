@@ -19,15 +19,16 @@
 .child {
   font-size: 3.5em;
   position: relative;
-  left: 86px;
+  left: 135px;
   top: 157px;
 }
 .subtitle{
   position: relative;
-  font-size: x-small;
+  font-size: small;
+  color: grey;
 }
 .toplevel{
-  width: 1000px;
+  width: 1200px;
   
   margin: auto;
 }

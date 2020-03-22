@@ -12,6 +12,9 @@
     top: 25%;
    
 }
+.blogcard p{
+    color: grey;
+}
 hr{
     width: 5%;
     float: left;
@@ -25,5 +28,5 @@ hr{
 .fergus{
     width: 39%;
     float: left;
-    padding: 0px 50px 0px 100px;
+    padding: 0px 50px 100px 100px;
 }

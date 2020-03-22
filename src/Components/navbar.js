@@ -24,7 +24,7 @@ class NavBar extends Component {
     return (
       
       <div >
-      <ul>
+      <ul className="nav"> 
         <li onClick={ () => this.props.handleClick("blog")} ><a href="#" > BLOG</a></li>
         
         <li onClick={ () => this.props.handleClick("contact")}><a href="#" >CONTACT</a></li>
