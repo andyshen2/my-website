@@ -1,8 +1,8 @@
 
 
-## My portfolio website
+## My Portfolio Website
 
-wwww.andyshen.co.nz
+www.andyshen.co.nz
 
-Created using the React framwork and hosted on Amazon S3 bucket.
+Created using the React framework and hosted on Amazon S3 bucket.
 
