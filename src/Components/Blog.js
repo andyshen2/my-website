@@ -11,10 +11,10 @@ class Blog extends Component{
       console.log(this.props)
     return (
     <div>
-        <div ref={this.props.setRef} className='blog'>
-            <div className='blogcard'>
+        <div  ref={this.props.setRef} className='blog'>
+            <div  className='blogcard'>
                 <img className='duck' src={require('./images/duck.png')} />
-                <h1>What The Duck</h1><hr/><br/>
+                <h1>  What The Duck</h1>< hr /><br/>
                 <p>For my honours project, I wanted to centre it around machine learning and application building. This lead me to build a mobile application which classifies images of animals and plants by species.</p>
                 <Link to="/app">READ MORE</Link>
                 
@@ -27,6 +27,7 @@ class Blog extends Component{
                 <p>
                     As apart of the Summer of Tech internship program,I spent a summer working at Fergus - a Service Product which provide job management solutions for the trade industry.
                 </p>
+                
                 <Link to="/fergus">READ MORE</Link>
             </div>
             

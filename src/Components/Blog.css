@@ -16,10 +16,16 @@
     color: grey;
 }
 hr{
-    width: 5%;
+    width: 2%;
     float: left;
+    /* color: "black"; */
+    background-color: #b4d6f7;
+    height: 2px;
+    border: 0px;
 }
-
+.blogcard h1{
+    margin-bottom: 0px;
+}
 .duck{
     padding-left: 50px;
     width: 60%;
@@ -29,4 +35,10 @@ hr{
     width: 39%;
     float: left;
     padding: 0px 50px 100px 100px;
+}
+.blogcard a{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bold;
 }

@@ -17,7 +17,7 @@ class SpeciesApp extends Component {
 
       <div>
         <ul>
-          <li><Link to="/">HOME</Link></li>
+          <li className="nav"><Link to="/">HOME</Link></li>
 
         </ul>
         <div className="toplevel">
