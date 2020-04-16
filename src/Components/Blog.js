@@ -12,27 +12,46 @@ class Blog extends Component{
     return (
     <div>
         <div  ref={this.props.setRef} className='blog'>
+            <img className='duck' src={require('./images/duck.png')} />
             <div  className='blogcard'>
-                <img className='duck' src={require('./images/duck.png')} />
+               
                 <h1>  What The Duck</h1>< hr /><br/>
                 <p>For my honours project, I wanted to centre it around machine learning and application building. This lead me to build a mobile application which classifies images of animals and plants by species.</p>
-                <Link to="/app">READ MORE</Link>
+                <Link id="special" to="/app">READ MORE</Link>
                 
             </div>
         </div>
         <div className='blog'>
+        <img className='fergus' src={require('./images/fergus.png')} />
             <div className='blogcard'>
-                <img className='fergus' src={require('./images/fergus.png')} />
+                
                 <h1>Fergus</h1><hr/><br/>
                 <p>
                     As apart of the Summer of Tech internship program,I spent a summer working at Fergus - a Service Product which provide job management solutions for the trade industry.
                 </p>
                 
-                <Link to="/fergus">READ MORE</Link>
+                <Link id="special" to="/fergus">READ MORE</Link>
             </div>
             
             
 
+        </div>
+        <div className='blog'>
+        <img className='myfreshproduce' src={require('./images/myfreshproduce.png')} />
+            <div className='blogcard'>
+                
+                <h1>myfreshproduce</h1><hr/><br/>
+                <p>
+                  Myfreshproduce deliver fruit and vege packs to families and companies all around Palmerston North. With the recent lockdown happening, Jason from myfreshproduce received a spike in demand and the business was growing quickly. 
+                  During this time <a name="jess" href="https://www.linkedin.com/in/jessicawong888/">Jess Wong</a> and I created an E-commerce store to help Jason be able to handle this growth. It was an awesome experince working a with a company so loved by the community. <br/>
+                  <br/>Check it out at:<br/><br/>
+
+                 <a id="special" href="https://myfreshproduce.co.nz">myfreshproduce.co.nz</a> 
+                </p>
+                
+
+            </div>
+            
         </div>
     </div>    
 
