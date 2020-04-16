@@ -14,7 +14,7 @@ function SummerOfTech() {
 
     <div >
       <ul>
-          <li><Link to="/">HOME</Link></li>
+          <li><Link id="special" to="/">HOME</Link></li>
           
         </ul>
         <div className="toplevel">

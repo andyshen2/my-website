@@ -17,11 +17,11 @@ class SpeciesApp extends Component {
 
       <div>
         <ul>
-          <li className="nav"><Link to="/">HOME</Link></li>
+          <li  className="nav"><Link id="special" to="/">HOME</Link></li>
 
         </ul>
         <div className="toplevel">
-          <img className="plant" src={require('./images/original.jpg')} />
+          {/* <img className="plant" src={require('./images/original.jpg')} /> */}
           <div className='blog'>
             <div className='blogcard'>
                 <img className='duck' src={require('./images/duck.png')} />

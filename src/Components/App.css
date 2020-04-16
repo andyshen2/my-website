@@ -15,7 +15,9 @@
     background-image: url('images/me.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    filter: drop-shadow( 3px 0px 3px #000 );
+    filter: drop-shadow( 3px 0px 5px #808080 );
+
+
 }
 .child {
   font-size: 3.5em;
