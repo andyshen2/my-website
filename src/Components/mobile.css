@@ -1,0 +1,38 @@
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.mobile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+.main-blog {
+  padding: 40px;
+}
+.main-images {
+  width: 100%;
+}
+.links {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.main-blog p {
+  color: grey;
+}
+.main-blog h1 {
+  text-align: center;
+}

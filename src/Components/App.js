@@ -37,10 +37,6 @@ class App extends Component {
     console.log(this.myRef.offsetTop);
     console.log(this.myRef.getBoundingClientRect().y);
     window.scrollTo(0, this.myRef.offsetTop);
-    // this.ref.scrollTop;
-    // window.scrollTop();
-    // this.myRef.scrollIntoView({ behavior: 'smooth'});
-    // ReactDOM.findDOMNode(this.myRef).scrollIntoView({block: 'end', behavior: 'smooth'});
   };
 
   render() {
