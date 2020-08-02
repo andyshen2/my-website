@@ -23,19 +23,15 @@ class App extends Component {
 
   setRef = (ref) => {
     this.reffArray.push(ref);
+    console.log(this.reffArray);
   };
 
   handleClick = (value) => {
     if (value == "blog") {
       this.myRef = this.reffArray[0];
-      // console.log(this.reffArray[0])
     } else if (value == "contact") {
       this.myRef = this.reffArray[1];
     }
-
-    console.log(this.myRef.getBoundingClientRect());
-    console.log(this.myRef.offsetTop);
-    console.log(this.myRef.getBoundingClientRect().y);
     window.scrollTo(0, this.myRef.offsetTop);
   };
 

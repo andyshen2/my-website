@@ -12,8 +12,8 @@ class Blog extends Component {
   }
   render() {
     return (
-      <div>
-        <Widget ref={this.props.setRef} className="duck" img={duck}>
+      <div id="blog" ref={this.props.setRef}>
+        <Widget className="duck" img={duck}>
           <h1> What The Duck</h1>
           <hr />
           <br />
@@ -27,6 +27,7 @@ class Blog extends Component {
             READ MORE
           </Link>
         </Widget>
+
         <Widget className="fergus" img={fergus}>
           <h1>Fergus</h1>
           <hr />
