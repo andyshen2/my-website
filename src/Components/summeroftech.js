@@ -1,13 +1,8 @@
 import React, { Component } from "react";
-// import NavBar from './Components/navbar'
 import "./NavBar.css";
 import "./Summeroftech.css";
 import "./Blog.css";
 import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
-import { useMediaQuery } from "react-responsive";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Navbar";
-import { slide as Menu } from "react-burger-menu";
 import "./mobile.css";
 class SummerOfTech extends Component {
   constructor(props) {
@@ -109,7 +104,6 @@ class SummerOfTech extends Component {
             </li>
           </ul>
           <div className="toplevel">
-            {/* <img className="ferguslogo" src={require('./images/fergus.svg')} /> */}
             <div className="blog">
               <div className="blogcard">
                 <img

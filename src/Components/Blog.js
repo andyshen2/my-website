@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import produce from "./images/myfreshproduce.png";
 import fergus from "./images/fergus.png";
 import duck from "./images/duck.png";
-import Widget from "./Widget";
+import BlogEntry from "./BlogEntry";
 import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
-
 import "./Blog.css";
 class Blog extends Component {
   constructor(props) {
@@ -13,7 +12,7 @@ class Blog extends Component {
   render() {
     return (
       <div id="blog" ref={this.props.setRef}>
-        <Widget className="duck" img={duck}>
+        <BlogEntry className="duck" img={duck}>
           <h1> What The Duck</h1>
           <hr />
           <br />
@@ -26,9 +25,9 @@ class Blog extends Component {
           <Link id="special" to="/app">
             READ MORE
           </Link>
-        </Widget>
+        </BlogEntry>
 
-        <Widget className="fergus" img={fergus}>
+        <BlogEntry className="fergus" img={fergus}>
           <h1>Fergus</h1>
           <hr />
           <br />
@@ -41,9 +40,9 @@ class Blog extends Component {
           <Link id="special" to="/fergus">
             READ MORE
           </Link>
-        </Widget>
+        </BlogEntry>
 
-        <Widget className="myfreshproduce" img={produce}>
+        <BlogEntry className="myfreshproduce" img={produce}>
           <h1>myfreshproduce</h1>
           <hr />
           <br />
@@ -66,7 +65,7 @@ class Blog extends Component {
               myfreshproduce.co.nz
             </a>
           </p>
-        </Widget>
+        </BlogEntry>
       </div>
     );
   }

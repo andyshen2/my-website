@@ -5,8 +5,6 @@ import Contact from "./Contact";
 import NavBar from "./navbar";
 import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
 
-// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
-
 class App extends Component {
   const;
   constructor(props) {
