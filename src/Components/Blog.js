@@ -6,10 +6,10 @@ import BlogEntry from "./BlogEntry";
 import { Link, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./Blog.css";
 
-const Blog = ({ setRef }) => {
+const Blog = ({ setRef, mobile }) => {
   return (
     <div id="blog" ref={setRef}>
-      <BlogEntry className="duck" img={duck}>
+      <BlogEntry className={mobile ? "" : "duck"} mobile={mobile} img={duck}>
         <h1> What The Duck</h1>
         <hr />
         <br />
@@ -23,7 +23,11 @@ const Blog = ({ setRef }) => {
         </Link>
       </BlogEntry>
 
-      <BlogEntry className="fergus" img={fergus}>
+      <BlogEntry
+        className={mobile ? "" : "fergus"}
+        mobile={mobile}
+        img={fergus}
+      >
         <h1>Fergus</h1>
         <hr />
         <br />
@@ -38,7 +42,11 @@ const Blog = ({ setRef }) => {
         </Link>
       </BlogEntry>
 
-      <BlogEntry className="myfreshproduce" img={produce}>
+      <BlogEntry
+        className={mobile ? "" : "myfreshproduce"}
+        mobile={mobile}
+        img={produce}
+      >
         <h1>myfreshproduce</h1>
         <hr />
         <br />

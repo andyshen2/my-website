@@ -1,24 +1,20 @@
-.contact{
-    height: 100vh;
-    background-color: #345b73;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    display: table;
-    width: 100%;
-    /* width: 1000px;
-    display: flex;
-    justify-content: center;
-    position: relative; */
+.contact {
+  height: 100vh;
+  background-color: #345b73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: table;
+  width: 100%;
 }
-.info{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+.info {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.github{
-    width: 50px;
-    padding: 30px;
+.github {
+  width: 50px;
+  padding: 30px;
 }

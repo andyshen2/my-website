@@ -1,31 +1,30 @@
-ul{
-    display: flex;
-    justify-content: center;
-    padding-inline-start: 0px;
-    /* position: relative; */
-    /* width: 900px; */
-    /* height: 600px; */
-    /* right: 163px; */
+ul {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+  /* position: relative; */
+  /* width: 900px; */
+  /* height: 600px; */
+  /* right: 163px; */
 }
 
-ul li{
-    display: inline-block;
-    margin: 10px;
-    
-}  
-.nav{
-    /* position: fixed; */
-    z-index: 999;
+ul li {
+  display: inline-block;
+  margin: 10px;
 }
-a#special{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
+.nav {
+  /* position: fixed; */
+  z-index: 999;
+}
+a#special {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
-a#special:after {    
+a#special:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -38,7 +37,7 @@ a#special:after {
   width: 0;
 }
 
-a#special:hover:after { 
-  width: 100%; 
-  left: 0; 
+a#special:hover:after {
+  width: 100%;
+  left: 0;
 }

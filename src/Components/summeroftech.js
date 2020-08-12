@@ -12,7 +12,7 @@ class SummerOfTech extends Component {
     };
   }
   componentDidMount(props) {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
   handleClick() {
     this.setState({
@@ -24,7 +24,7 @@ class SummerOfTech extends Component {
     let width = window.innerWidth;
     if (width < 800) {
       return (
-        <div className="main-blog">
+        <div className="mobile-blog">
           <Link className="mobile-header" to="/">
             HOME
           </Link>
@@ -33,7 +33,7 @@ class SummerOfTech extends Component {
           <br />
 
           <img
-            className="main-images"
+            className="mobile-image"
             src={require("./images/summeroftech.png")}
           />
           <p>

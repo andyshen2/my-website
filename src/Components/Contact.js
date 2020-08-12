@@ -6,7 +6,6 @@ class Contact extends Component {
     super(props);
   }
   render() {
-    console.log(this.props);
     return (
       <div ref={this.props.setRef} className="contact">
         <div className="info">

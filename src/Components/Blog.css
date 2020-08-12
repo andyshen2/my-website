@@ -1,58 +1,47 @@
-.blog{
-   
-    display: inline-block;
-    padding-bottom: 100px;
-
+.blog {
+  display: inline-block;
+  padding-bottom: 100px;
 }
-.blogcard{
-    position: relative;
-    top: 25%;
-   
+.blogcard {
+  position: relative;
+  top: 25%;
 }
-.blogcard p{
-    color: grey;
+.blogcard p {
+  color: grey;
 }
-hr{
-    width: 4%;
-    float: left;
-    background-color: #b4d6f7;
-    height: 2px;
-    border: 0px;
+hr {
+  width: 4%;
+  float: left;
+  background-color: #b4d6f7;
+  height: 2px;
+  border: 0px;
 }
-.blogcard h1{
-    margin-bottom: 0px;
+.blogcard h1 {
+  margin-bottom: 0px;
 }
-.duck{
-    padding-left: 50px;
-    width: 60%;
-    float: right;
-    filter: drop-shadow( 3px 0px 5px #808080 );
-
-
-
+.duck {
+  padding-left: 50px;
+  width: 60%;
+  float: right;
+  filter: drop-shadow(3px 0px 5px #808080);
 }
-.fergus{
-    width: 39%;
-    float: left;
-    padding: 0px 50px 0px 100px;
-    filter: drop-shadow( 3px 0px 5px #808080 );
-
-
-
+.fergus {
+  width: 39%;
+  float: left;
+  padding: 0px 50px 0px 100px;
+  filter: drop-shadow(3px 0px 5px #808080);
 }
-.blogcard a#special{
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-weight: bold;
-
+.blogcard a#special {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-weight: bold;
 }
 
 .myfreshproduce {
-    /* padding: 0px 50px 100px 0px; */
-    width: 60%;
-    padding-left: 50px;
-    float: right;
-    filter: drop-shadow( 3px 0px 5px #808080 );
-
+  /* padding: 0px 50px 100px 0px; */
+  width: 60%;
+  padding-left: 50px;
+  float: right;
+  filter: drop-shadow(3px 0px 5px #808080);
 }

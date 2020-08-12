@@ -1,10 +1,8 @@
 import React, { Children } from "react";
 
-import cx from "classnames";
-
-const BlogEntry = ({ children, className, img }) => (
+const BlogEntry = ({ children, className, img, mobile }) => (
   <div className="blog">
-    <img className={className} src={img} />
+    <img className={mobile ? "mobile-image" : className} src={img} />
     <div className="blogcard">{children}</div>
   </div>
 );

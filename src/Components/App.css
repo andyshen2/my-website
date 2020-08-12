@@ -3,43 +3,41 @@
 }
 
 .wrapper {
-	display: flex;
+  display: flex;
   justify-content: center;
   position: relative;
   height: 100vh;
   right: 50px;
 }
 .parent {
-    width: 70%;
-    height: 600px;
-    background-image: url('images/me.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    filter: drop-shadow( 3px 0px 5px #808080 );
-
-
+  width: 70%;
+  height: 600px;
+  background-image: url("images/me.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(3px 0px 5px #808080);
 }
 .child {
   font-size: 3.5em;
   position: relative;
   left: 135px;
   top: 157px;
-  z-index: 999;;
+  z-index: 999;
 }
-.subtitle{
+.subtitle {
   position: relative;
   font-size: small;
   color: grey;
 }
-.toplevel{
+.toplevel {
   width: 1200px;
-  
+
   margin: auto;
 }
 html {
   scroll-behavior: smooth;
 }
 
-*{
-  font-family: 'Lato'
+* {
+  font-family: "Lato";
 }

@@ -18,10 +18,10 @@
   text-decoration: none;
   font-weight: bold;
 }
-.main-blog {
+.mobile-blog {
   padding: 40px;
 }
-.main-images {
+.mobile-image {
   width: 100%;
 }
 .links {
@@ -30,9 +30,9 @@
   color: black;
 }
 
-.main-blog p {
+.mobile-blog p {
   color: grey;
 }
-.main-blog h1 {
+.mobile-blog h1 {
   text-align: center;
 }

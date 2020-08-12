@@ -1,10 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./App.css";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import NavBar from "./navbar";
+import Me from "./Me";
+import MeMobile from "./MeMobile";
+import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
 
 const App = (props) => {
+  var mobile = false;
   var reffArray = [];
   var myRef = useRef(null);
 
@@ -19,24 +23,21 @@ const App = (props) => {
     }
     window.scrollTo(0, myRef.offsetTop);
   };
+  let width = window.innerWidth;
+
+  if (width < 800) mobile = true;
+
   return (
     <div>
-      <NavBar handleClick={handleClick.bind(this)} />
-      <div className="toplevel">
-        <div className="wrapper">
-          <h1 className="child">
-            Andy Shen
-            <br />
-            <p className="subtitle">
-              Bachelor of Computing and Mathematical Sciences{" "}
-            </p>
-            <p className="subtitle">
-              with First Class Honours, University of Waikato
-            </p>
-          </h1>
-          <div className="parent"></div>
-        </div>
-        <Blog {...props} setRef={setRef} />
+      <div className={mobile ? "mobile-blog" : "toplevel"}>
+        {mobile ? (
+          <MeMobile />
+        ) : (
+          <div>
+            <NavBar handleClick={handleClick.bind(this)} /> <Me />
+          </div>
+        )}
+        <Blog {...props} mobile={mobile} setRef={setRef} />
       </div>
       <Contact {...props} setRef={setRef} />
     </div>

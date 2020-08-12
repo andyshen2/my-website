@@ -16,14 +16,14 @@ class SpeciesApp extends Component {
     let width = window.innerWidth;
     if (width < 800) {
       return (
-        <div className="main-blog">
+        <div className="mobile-blog">
           <Link className="mobile-header" to="/">
             HOME
           </Link>
           <h1>What The Duck</h1>
           <hr />
           <br />
-          <img className="main-images" src={require("./images/duck.png")} />
+          <img className="mobile-image" src={require("./images/duck.png")} />
           <p>
             For my honours project, I wanted to centre it around machine
             learning and application building. This lead me to build a mobile
