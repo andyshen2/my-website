@@ -2,10 +2,9 @@ import React, { useRef, useState } from "react";
 import "./App.css";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import NavBar from "./navbar";
+import NavBar from "./NavBar";
 import Me from "./Me";
 import MeMobile from "./MeMobile";
-import { Route, Link, BrowserRouter as Router, Switch } from "react-router-dom";
 
 const App = (props) => {
   var mobile = false;
@@ -34,7 +33,8 @@ const App = (props) => {
           <MeMobile />
         ) : (
           <div>
-            <NavBar handleClick={handleClick.bind(this)} /> <Me />
+            <NavBar handleClick={handleClick.bind(this)} />
+            <Me />
           </div>
         )}
         <Blog {...props} mobile={mobile} setRef={setRef} />

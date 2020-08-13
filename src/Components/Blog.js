@@ -2,14 +2,14 @@ import React from "react";
 import produce from "./images/myfreshproduce.png";
 import fergus from "./images/fergus.png";
 import duck from "./images/duck.png";
-import BlogEntry from "./BlogEntry";
+import BlogPreview from "./BlogPreview";
 import { Link, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./Blog.css";
 
 const Blog = ({ setRef, mobile }) => {
   return (
     <div id="blog" ref={setRef}>
-      <BlogEntry className={mobile ? "" : "duck"} mobile={mobile} img={duck}>
+      <BlogPreview className={mobile ? "" : "duck"} mobile={mobile} img={duck}>
         <h1> What The Duck</h1>
         <hr />
         <br />
@@ -21,9 +21,9 @@ const Blog = ({ setRef, mobile }) => {
         <Link id="special" to="/app">
           READ MORE
         </Link>
-      </BlogEntry>
+      </BlogPreview>
 
-      <BlogEntry
+      <BlogPreview
         className={mobile ? "" : "fergus"}
         mobile={mobile}
         img={fergus}
@@ -40,9 +40,9 @@ const Blog = ({ setRef, mobile }) => {
         <Link id="special" to="/fergus">
           READ MORE
         </Link>
-      </BlogEntry>
+      </BlogPreview>
 
-      <BlogEntry
+      <BlogPreview
         className={mobile ? "" : "myfreshproduce"}
         mobile={mobile}
         img={produce}
@@ -69,7 +69,7 @@ const Blog = ({ setRef, mobile }) => {
             myfreshproduce.co.nz
           </a>
         </p>
-      </BlogEntry>
+      </BlogPreview>
     </div>
   );
 };

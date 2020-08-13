@@ -12,7 +12,7 @@ class SummerOfTech extends Component {
     };
   }
   componentDidMount(props) {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
   handleClick() {
     this.setState({
