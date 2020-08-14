@@ -1,11 +1,18 @@
 import React from "react";
-
-const BlogEntry = ({ children }) => {
+import { Link } from "react-router-dom";
+const BlogEntry = ({ children, image, className }) => {
   return (
     <div className="toplevel">
+      <ul>
+        <li>
+          <Link id="special" to="/">
+            HOME
+          </Link>
+        </li>
+      </ul>
       <div className="blog">
         <div className="blogcard">
-          <img className="duck" src={require("./images/duck.png")} />
+          <img className={className} src={image} />
           {children}
         </div>
       </div>

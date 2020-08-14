@@ -2,12 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import BlogEntry from "./BlogEntry";
 import AppBlog from "./AppBlog";
-import "./NavBar.css";
-import "./App.css";
-import "./Species.css";
-import "./Blog.css";
-import "./mobile.css";
 import MobileBlogEntry from "./MobileBlogEntry";
+import duck from "./images/duck.png";
 
 const SpeciesApp = () => {
   useEffect(() => {
@@ -17,7 +13,7 @@ const SpeciesApp = () => {
   if (width < 800) {
     return (
       <div>
-        <MobileBlogEntry>
+        <MobileBlogEntry title="What The Duck" image={duck}>
           <AppBlog />
         </MobileBlogEntry>
       </div>
@@ -25,14 +21,7 @@ const SpeciesApp = () => {
   } else {
     return (
       <div>
-        <ul>
-          <li className="nav">
-            <Link id="special" to="/">
-              HOME
-            </Link>
-          </li>
-        </ul>
-        <BlogEntry>
+        <BlogEntry image={duck} className="duck">
           <AppBlog />
         </BlogEntry>
       </div>
